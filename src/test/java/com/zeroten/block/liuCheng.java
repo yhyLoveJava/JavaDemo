@@ -17,4 +17,5 @@ public class liuCheng {
         int n2 = 102;
         System.out.println(n2);
     }
+
 }
