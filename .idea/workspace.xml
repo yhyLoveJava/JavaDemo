@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroten/block/liuCheng.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="62" column="32" lean-forward="true" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+            <state relative-caret-position="229">
+              <caret line="127" column="22" lean-forward="true" selection-start-line="127" selection-start-column="22" selection-end-line="127" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,13 +98,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="javales" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_les_example-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -130,7 +123,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.liuCheng.testWhile">
+  <component name="RunManager" selected="TestNG.liuCheng.testSwitch">
     <configuration name="liuCheng.TestIfElse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javales" />
       <extension name="coverage">
@@ -149,7 +142,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="liuCheng.testBlock" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="liuCheng.testDoWhile" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javales" />
       <extension name="coverage">
         <pattern>
@@ -159,7 +152,43 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zeroten.block" />
       <option name="MAIN_CLASS_NAME" value="com.zeroten.block.liuCheng" />
-      <option name="METHOD_NAME" value="testBlock" />
+      <option name="METHOD_NAME" value="testDoWhile" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="liuCheng.testFor" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javales" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.block.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroten.block" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.block.liuCheng" />
+      <option name="METHOD_NAME" value="testFor" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="liuCheng.testSwitch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javales" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.block.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroten.block" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.block.liuCheng" />
+      <option name="METHOD_NAME" value="testSwitch" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -187,9 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.liuCheng.testSwitch" />
+        <item itemvalue="TestNG.liuCheng.testFor" />
+        <item itemvalue="TestNG.liuCheng.testDoWhile" />
         <item itemvalue="TestNG.liuCheng.testWhile" />
         <item itemvalue="TestNG.liuCheng.TestIfElse" />
-        <item itemvalue="TestNG.liuCheng.testBlock" />
       </list>
     </recent_temporary>
   </component>
@@ -206,32 +237,44 @@
       <workItem from="1575598095905" duration="390000" />
       <workItem from="1575598525244" duration="2139000" />
       <workItem from="1575600740181" duration="867000" />
-      <workItem from="1575601637981" duration="6017000" />
+      <workItem from="1575601637981" duration="7947000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="liuCheng_testBlock - 2019.12.06 at 10h 51m 07s.xml">
-      <configuration name="liuCheng.testBlock" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="liuCheng_TestIfElse - 2019.12.06 at 15h 48m 51s.xml">
-      <configuration name="liuCheng.TestIfElse" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="liuCheng_TestIfElse - 2019.12.06 at 15h 53m 27s.xml">
-      <configuration name="liuCheng.TestIfElse" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="liuCheng_TestIfElse - 2019.12.06 at 15h 54m 36s.xml">
-      <configuration name="liuCheng.TestIfElse" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="liuCheng_TestIfElse - 2019.12.06 at 15h 54m 46s.xml">
       <configuration name="liuCheng.TestIfElse" configurationId="TestNG" />
     </history-entry>
     <history-entry file="liuCheng_TestIfElse - 2019.12.06 at 15h 56m 56s.xml">
       <configuration name="liuCheng.TestIfElse" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="liuCheng_testWhile - 2019.12.06 at 16h 09m 28s.xml">
+      <configuration name="liuCheng.testWhile" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="liuCheng_testWhile - 2019.12.06 at 16h 09m 51s.xml">
+      <configuration name="liuCheng.testWhile" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="liuCheng_testDoWhile - 2019.12.06 at 16h 24m 25s.xml">
+      <configuration name="liuCheng.testDoWhile" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="liuCheng_testDoWhile - 2019.12.06 at 16h 26m 09s.xml">
+      <configuration name="liuCheng.testDoWhile" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="liuCheng_testFor - 2019.12.06 at 16h 31m 47s.xml">
+      <configuration name="liuCheng.testFor" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="liuCheng_testSwitch - 2019.12.06 at 16h 40m 00s.xml">
+      <configuration name="liuCheng.testSwitch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="liuCheng_testSwitch - 2019.12.06 at 16h 40m 19s.xml">
+      <configuration name="liuCheng.testSwitch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="liuCheng_testSwitch - 2019.12.06 at 16h 40m 49s.xml">
+      <configuration name="liuCheng.testSwitch" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9413000" />
+    <option name="totallyTimeSpent" value="11343000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -247,7 +290,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21186441" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21186441" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -257,7 +300,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44058502" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19744058" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -266,7 +309,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.34369287" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.12431444" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="消息" order="13" />
       <window_info anchor="bottom" id="运行" order="14" weight="0.32943144" />
@@ -311,6 +354,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8240" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kuaiJieJian.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -323,8 +371,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroten/block/liuCheng.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="62" column="32" lean-forward="true" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+        <state relative-caret-position="229">
+          <caret line="127" column="22" lean-forward="true" selection-start-line="127" selection-start-column="22" selection-end-line="127" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -72,4 +72,68 @@ public class liuCheng {
         System.out.println("此次共产生" + times + "个不能被30整除的数!");
     }
 
+    @Test
+    public void testDoWhile(){
+        Random r = new Random();
+        boolean isGo = true;
+        int n = 0;
+        int times = 0;
+        do {
+            n = r.nextInt(1000);
+            if (n % 30 == 0){
+                isGo = false;
+                System.out.println("随机数" + n + "能被30整除,结束!");
+            } else {
+                System.out.println("随机数" + n + "不能被30整除,继续!");
+                times++;
+            }
+        } while (isGo);
+
+        System.out.println("此次循环共产生了" + times + "个不能被30整除的随机数!");
+    }
+
+    @Test
+    public void testFor(){
+        /*
+         用for循环算出1 ~ 100 之和,不包括100,并输出
+         */
+        int sum = 0;
+        for (int i = 1; i < 100; i++){
+            sum += i;
+        }
+        System.out.println("1~100之和为" +sum);
+    }
+    @Test
+    public void testSwitch(){
+        //        练习：假如你有一个机器人，你通过输入数字指令来指挥机器人，
+        //        比如输入 `1` 让机器人扫地，输入 `2` 让机器人打开灯。具体指令如下：
+        //        |数字指令    |执行命令
+        //                |---------- |--------|
+        //                |1          |扫地
+        //                |2          |开灯
+        //                |3          |关灯
+        //                |4          |播放音乐
+        //                |5          |关闭音乐
+        //                |其他数字    |不能识别的指令
+        int order = 6;
+        switch (order){
+            case 1 :
+                System.out.println("扫地");
+                break;
+            case 2 :
+                System.out.println("开灯");
+                break;
+            case 3 :
+                System.out.println("关灯");
+                break;
+            case 4 :
+                System.out.println("播放音乐");
+                break;
+            case 5 :
+                System.out.println("关闭音乐");
+                break;
+            default:
+                System.out.println("不能识别的命令!");
+        }
+    }
 }
