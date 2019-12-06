@@ -139,6 +139,39 @@ public class liuCheng {
 
     @Test
     public void testBreakContinueReturn(){
+        //        练习1：还是前边的练习，我们来改写一下。随机生成一个 `0 ～ 1000` 范围的整数，
+        //        如果不能被30整除，则打印出数字，如果能被30整除则退出循环。
+            Random r = new Random();
+            int n = 0;
+            while(true){
+                n = r.nextInt(1000 );
+                if ( n % 30 == 0 ){
+                    System.out.println("随机数" + n + "可以被30整除,结束");
+                    break;
+                } else {
+                    System.out.println("随机数" + n + "不能被30整除,继续");
+                }
+            }
+    }
 
+    @Test
+    public void testContinue(){
+        //练习3：找出 `0 ~ 100` 范围内能被7整除的数，并计算它们累计相加的结果。
+//        int sum = 0;
+//        for (int i = 0 ; i <= 100; i++){
+//            if ( i % 7 == 0){
+//                sum += i;
+//            }
+//        }
+//        System.out.println(sum);
+        int total = 0;
+        for (int n = 0; n < 100; n++) {
+            if (n % 7 != 0) {
+                continue;
+            }
+            total += n;
+            System.out.println(n + "能被7整除，累计结果：" + total);
+        }
+        System.out.println("0 ~ 100范围内能被7整除的数累计相加结果：" + total);
     }
 }
