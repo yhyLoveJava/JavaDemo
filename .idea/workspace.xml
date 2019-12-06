@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8e9d22b-54c5-4aa7-b118-c652989059e8" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/2019-12-15.github与maven的使用,程序控制流程.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zeroten/block/BiJiStudy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zeroten/block/liuCheng.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zeroten/block/liuCheng.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,13 +18,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroten/block/liuCheng.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="174" column="63" selection-start-line="174" selection-start-column="63" selection-end-line="174" selection-end-column="63" />
+            <state relative-caret-position="371">
+              <caret line="175" column="5" lean-forward="true" selection-start-line="175" selection-start-column="5" selection-end-line="175" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroten/block/BiJiStudy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="37" column="13" selection-start-line="35" selection-start-column="9" selection-end-line="37" selection-end-column="13" />
+              <folding>
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#1037#1038#0" expanded="true" />
+                <element signature="e#1063#1064#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,6 +86,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/kuaiJieJian.md" />
         <option value="$PROJECT_DIR$/src/test/java/com/zeroten/block/liuCheng.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zeroten/block/BiJiStudy.java" />
       </list>
     </option>
   </component>
@@ -100,6 +121,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="javales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="block" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -130,7 +166,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.liuCheng.testContinue">
+  <component name="RunManager" selected="TestNG.BiJiStudy.testNiMingDuiXiang">
+    <configuration name="BiJiStudy.testIntArray" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javales" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.block.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroten.block" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.block.BiJiStudy" />
+      <option name="METHOD_NAME" value="testIntArray" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BiJiStudy.testNiMingDuiXiang" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javales" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.block.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroten.block" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.block.BiJiStudy" />
+      <option name="METHOD_NAME" value="testNiMingDuiXiang" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="liuCheng.testBreakContinueReturn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javales" />
       <extension name="coverage">
@@ -167,42 +239,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="liuCheng.testDoWhile" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="javales" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zeroten.block.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zeroten.block" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.block.liuCheng" />
-      <option name="METHOD_NAME" value="testDoWhile" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="liuCheng.testFor" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="javales" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zeroten.block.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zeroten.block" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.block.liuCheng" />
-      <option name="METHOD_NAME" value="testFor" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="liuCheng.testSwitch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javales" />
       <extension name="coverage">
@@ -223,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BiJiStudy.testNiMingDuiXiang" />
+        <item itemvalue="TestNG.BiJiStudy.testIntArray" />
         <item itemvalue="TestNG.liuCheng.testContinue" />
         <item itemvalue="TestNG.liuCheng.testBreakContinueReturn" />
         <item itemvalue="TestNG.liuCheng.testSwitch" />
-        <item itemvalue="TestNG.liuCheng.testFor" />
-        <item itemvalue="TestNG.liuCheng.testDoWhile" />
       </list>
     </recent_temporary>
   </component>
@@ -245,44 +281,44 @@
       <workItem from="1575598525244" duration="2139000" />
       <workItem from="1575600740181" duration="867000" />
       <workItem from="1575601637981" duration="7947000" />
-      <workItem from="1575640890126" duration="1201000" />
+      <workItem from="1575640890126" duration="5046000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="liuCheng_testWhile - 2019.12.06 at 16h 09m 51s.xml">
-      <configuration name="liuCheng.testWhile" configurationId="TestNG" />
+    <history-entry file="BiJiStudy_testIntArray - 2019.12.06 at 22h 31m 48s.xml">
+      <configuration name="BiJiStudy.testIntArray" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="liuCheng_testDoWhile - 2019.12.06 at 16h 24m 25s.xml">
-      <configuration name="liuCheng.testDoWhile" configurationId="TestNG" />
+    <history-entry file="BiJiStudy_testIntArray - 2019.12.06 at 22h 33m 09s.xml">
+      <configuration name="BiJiStudy.testIntArray" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="liuCheng_testDoWhile - 2019.12.06 at 16h 26m 09s.xml">
-      <configuration name="liuCheng.testDoWhile" configurationId="TestNG" />
+    <history-entry file="BiJiStudy_testIntArray - 2019.12.06 at 22h 36m 22s.xml">
+      <configuration name="BiJiStudy.testIntArray" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="liuCheng_testFor - 2019.12.06 at 16h 31m 47s.xml">
-      <configuration name="liuCheng.testFor" configurationId="TestNG" />
+    <history-entry file="BiJiStudy_testIntArray - 2019.12.06 at 22h 37m 01s.xml">
+      <configuration name="BiJiStudy.testIntArray" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="liuCheng_testSwitch - 2019.12.06 at 16h 40m 00s.xml">
-      <configuration name="liuCheng.testSwitch" configurationId="TestNG" />
+    <history-entry file="BiJiStudy_testIntArray - 2019.12.06 at 22h 37m 58s.xml">
+      <configuration name="BiJiStudy.testIntArray" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="liuCheng_testSwitch - 2019.12.06 at 16h 40m 19s.xml">
-      <configuration name="liuCheng.testSwitch" configurationId="TestNG" />
+    <history-entry file="BiJiStudy_testNiMingDuiXiang - 2019.12.06 at 22h 43m 06s.xml">
+      <configuration name="BiJiStudy.testNiMingDuiXiang" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="liuCheng_testSwitch - 2019.12.06 at 16h 40m 49s.xml">
-      <configuration name="liuCheng.testSwitch" configurationId="TestNG" />
+    <history-entry file="BiJiStudy_testNiMingDuiXiang - 2019.12.06 at 22h 45m 27s.xml">
+      <configuration name="BiJiStudy.testNiMingDuiXiang" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="liuCheng_testBreakContinueReturn - 2019.12.06 at 22h 13m 50s.xml">
-      <configuration name="liuCheng.testBreakContinueReturn" configurationId="TestNG" />
+    <history-entry file="BiJiStudy_testNiMingDuiXiang - 2019.12.06 at 22h 56m 38s.xml">
+      <configuration name="BiJiStudy.testNiMingDuiXiang" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="liuCheng_testBreakContinueReturn - 2019.12.06 at 22h 13m 58s.xml">
-      <configuration name="liuCheng.testBreakContinueReturn" configurationId="TestNG" />
+    <history-entry file="BiJiStudy_testNiMingDuiXiang - 2019.12.06 at 22h 57m 08s.xml">
+      <configuration name="BiJiStudy.testNiMingDuiXiang" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="liuCheng_testContinue - 2019.12.06 at 22h 20m 49s.xml">
-      <configuration name="liuCheng.testContinue" configurationId="TestNG" />
+    <history-entry file="BiJiStudy_testNiMingDuiXiang - 2019.12.06 at 22h 59m 59s.xml">
+      <configuration name="BiJiStudy.testNiMingDuiXiang" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12544000" />
+    <option name="totallyTimeSpent" value="16389000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,7 +343,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32725322" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31866953" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -389,10 +425,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroten/block/liuCheng.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="174" column="63" selection-start-line="174" selection-start-column="63" selection-end-line="174" selection-end-column="63" />
+        <state relative-caret-position="371">
+          <caret line="175" column="5" lean-forward="true" selection-start-line="175" selection-start-column="5" selection-end-line="175" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroten/block/BiJiStudy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="37" column="13" selection-start-line="35" selection-start-column="9" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
           </folding>
         </state>
       </provider>
