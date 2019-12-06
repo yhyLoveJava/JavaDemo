@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8e9d22b-54c5-4aa7-b118-c652989059e8" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/kuaiJieJian.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zeroten/block/liuCheng.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zeroten/block/liuCheng.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,21 +17,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroten/block/liuCheng.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="97">
+              <caret line="62" column="32" lean-forward="true" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kuaiJieJian.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="4071">
-                <caret line="177" column="34" selection-start-line="177" selection-start-column="34" selection-end-line="177" selection-end-column="34" />
+              <first_editor relative-caret-position="115">
+                <caret line="83" column="24" lean-forward="true" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
               </first_editor>
               <second_editor />
             </state>
@@ -49,6 +50,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>注释</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -56,8 +62,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zeroten/block/liuCheng.java" />
         <option value="$PROJECT_DIR$/kuaiJieJian.md" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zeroten/block/liuCheng.java" />
       </list>
     </option>
   </component>
@@ -124,7 +130,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.liuCheng.testWhile">
+    <configuration name="liuCheng.TestIfElse" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javales" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.block.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroten.block" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.block.liuCheng" />
+      <option name="METHOD_NAME" value="TestIfElse" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="liuCheng.testBlock" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javales" />
       <extension name="coverage">
@@ -143,8 +167,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="liuCheng.testWhile" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javales" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.block.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroten.block" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.block.liuCheng" />
+      <option name="METHOD_NAME" value="testWhile" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.liuCheng.testWhile" />
+        <item itemvalue="TestNG.liuCheng.TestIfElse" />
         <item itemvalue="TestNG.liuCheng.testBlock" />
       </list>
     </recent_temporary>
@@ -162,7 +206,7 @@
       <workItem from="1575598095905" duration="390000" />
       <workItem from="1575598525244" duration="2139000" />
       <workItem from="1575600740181" duration="867000" />
-      <workItem from="1575601637981" duration="1927000" />
+      <workItem from="1575601637981" duration="6017000" />
     </task>
     <servers />
   </component>
@@ -170,9 +214,24 @@
     <history-entry file="liuCheng_testBlock - 2019.12.06 at 10h 51m 07s.xml">
       <configuration name="liuCheng.testBlock" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="liuCheng_TestIfElse - 2019.12.06 at 15h 48m 51s.xml">
+      <configuration name="liuCheng.TestIfElse" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="liuCheng_TestIfElse - 2019.12.06 at 15h 53m 27s.xml">
+      <configuration name="liuCheng.TestIfElse" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="liuCheng_TestIfElse - 2019.12.06 at 15h 54m 36s.xml">
+      <configuration name="liuCheng.TestIfElse" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="liuCheng_TestIfElse - 2019.12.06 at 15h 54m 46s.xml">
+      <configuration name="liuCheng.TestIfElse" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="liuCheng_TestIfElse - 2019.12.06 at 15h 56m 56s.xml">
+      <configuration name="liuCheng.TestIfElse" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5323000" />
+    <option name="totallyTimeSpent" value="9413000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -195,18 +254,19 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="设计师" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44058502" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32841328" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32723948" />
       <window_info anchor="bottom" id="找到" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.15904936" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.34369287" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="消息" order="13" />
       <window_info anchor="bottom" id="运行" order="14" weight="0.32943144" />
@@ -237,24 +297,37 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroten/block/liuCheng.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="65">
+            <caret line="75" column="30" lean-forward="true" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kuaiJieJian.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="4071">
-            <caret line="177" column="34" selection-start-line="177" selection-start-column="34" selection-end-line="177" selection-end-column="34" />
+          <first_editor relative-caret-position="115">
+            <caret line="83" column="24" lean-forward="true" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroten/block/liuCheng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="62" column="32" lean-forward="true" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
